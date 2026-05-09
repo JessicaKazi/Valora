@@ -5,8 +5,17 @@
 }
 
 body {
-
+    color: black;
 }
+/* Univeral Selector */
+button {
+    background-color: #210100;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+/* Universal Selector */
+
 
 .nav-container {
     border: 3px solid green;
@@ -15,17 +24,27 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #210100;
 }
 
 nav .box {
-    border: 3px solid;
     height: auto;
     width: auto;
 }
 
+.nav-container a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.nav-container a:hover {
+    text-decoration: underline;
+}
+
 .banner-one-container {
     border: 3px solid blue;
-    background-image: url(images/resized-images/Cannot\ wait\ to\ share\ more\ of\ this\ @captureframee\ perfection\ 🤎.jpg)c;
+    background-image: url(images/dane-wetton-AkSJQnem75Y-unsplash.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -47,43 +66,58 @@ nav .box {
 }
 
 .title-section-one button {
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
 }
 
 .section-one-homepage {
     border: 3px solid gold;
+    margin-top: 2em;
     width: auto;
     height: auto;
     display: flex;
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(2 1fr);
 }
 
 .section-one-homepage-info {
     border: 3px solid brown;
     width: auto;
-    height: auto;
+    height: 70%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-.section-one-homepage-picture {
-    border: 3px solid salmon;
-    width: auto;
-    height: auto;
-}
-
-.image-box-one {
-    border: 3px solid seagreen;
-    width: auto;
-    height: 60vh;
-}
-
-.section-one-homepage-info h2 {
+.section-one-homepage-info h1 {
     border: 3px solid yellow;
+    font-size: 3rem;
+    margin-top: 1em;
 }
 
 .section-one-homepage-info p {
    border: 3px solid red; 
+   margin-top: 0.7em;
+   text-decoration: underline;
+   font-size: 1.2em;
+   font-weight: 700;
+   transition: 0.5s;
 }
 
-.section-one-homepage-info button {
-    border: 3px solid blue;
+.section-one-homepage-picture {
+    border: 3px solid red;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
 }
+
+.image-box-one {
+    background-image: url(imagesfolder/GettyImages-2189126117.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    width: 80vw;
+    border-radius: 30px;
+    margin-top: 1em;
+}
+
