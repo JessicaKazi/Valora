@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+}
+
+.nav-container {
+    border: 3px solid green;
+    height: 7vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .box {
+    border: 3px solid;
+    height: auto;
+    width: auto;
+}
+
+.banner-one-container {
+    border: 3px solid blue;
+    background-image: url(images/resized-images/Cannot\ wait\ to\ share\ more\ of\ this\ @captureframee\ perfection\ 🤎.jpg)c;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title-section-one h1 {
+    border: 3px solid black;
+    margin-bottom: 1em;
+}
+
+.title-section-one p {
+    border: 3px solid green;
+    margin-bottom: 1em;
+}
+
+.title-section-one button {
+    border: 3px solid blue;
+}
+
+.section-one-homepage {
+    border: 3px solid gold;
+    width: auto;
+    height: auto;
+    display: flex;
+    grid-template-columns: auto auto;
+}
+
+.section-one-homepage-info {
+    border: 3px solid brown;
+    width: auto;
+    height: auto;
+}
+
+.section-one-homepage-picture {
+    border: 3px solid salmon;
+    width: auto;
+    height: auto;
+}
+
+.image-box-one {
+    border: 3px solid seagreen;
+    width: auto;
+    height: 60vh;
+}
+
+.section-one-homepage-info h2 {
+    border: 3px solid yellow;
+}
+
+.section-one-homepage-info p {
+   border: 3px solid red; 
+}
+
+.section-one-homepage-info button {
+    border: 3px solid blue;
+}
