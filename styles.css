@@ -23,6 +23,8 @@ nav .box {
     width: auto;
 }
 
+/* Home page */
+
 .banner-one-container {
     border: 3px solid blue;
     background-image: url(images/resized-images/Cannot\ wait\ to\ share\ more\ of\ this\ @captureframee\ perfection\ 🤎.jpg)c;
@@ -87,3 +89,44 @@ nav .box {
 .section-one-homepage-info button {
     border: 3px solid blue;
 }
+
+/* Home page */
+
+/* Pricing box */
+.pricing-container-two {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 4em;
+}
+
+.title-section-price {
+    text-align: center;
+    border: yellow solid 3px;
+    margin-top: 2em;
+}
+
+.pricing-container {
+    border: red solid 3px;
+    height: auto;
+    width: auto;
+}
+
+.pricing-container-info {
+    border: green 3px solid;
+    height: 70vh;
+    width: 30vw;
+    text-align: center;
+}
+
+@media (max-width: 890px) {
+    .pricing-container-two {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto;
+    width: auto;
+    height: auto;
+    }
+}
+
+/* Pricing box */
